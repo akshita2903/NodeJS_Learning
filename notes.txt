@@ -1,0 +1,23 @@
+// open source and cross platform js re
+//runs v8 js engine outside browser
+//v8 js engine is core of chrome
+//runs in single process without creating a new thread for every request.
+// * When Node.js performs an I/O operation, like reading from the network, accessing a database or the filesystem, instead of blocking the thread and wasting CPU cycles waiting, 
+// ** Node.js will resume the operations when the response comes back.
+// coz of * & **  Node.js handles thousands of concurrent connections with a single server without introducing the burden of managing thread concurrency
+
+WHY NODE JS? it is asynchronous
+Here is how Node.js handles a file request:
+
+Sends the task to the computer's file system.
+Ready to handle the next request.
+When the file system has opened and read the file, the server returns the content to the client.
+Node.js eliminates the waiting, and simply continues with the next request.
+
+WHERE AS PHP (it is synchronous)
+{
+    1-Sends the task to the computer's file system.
+    2-Waits for the file system to opened and read the file,
+    3- the server returns the content to the client.
+    4-ready to handle next req
+}
