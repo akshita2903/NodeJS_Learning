@@ -1,0 +1,13 @@
+1- OS MODULE
+lib/os.js
+provides OS related utility(services) methods and properties
+
+2-PATH MODULES
+provides utility for working file and directory paths
+
+3-CREATE AND EXPORT MODULE
+//by default every file in js is a module with privae scope,to make it public export it
+
+module.exports=file se kya export krana hai
+module.exports=onefunc
+module.exports={onefun,2ndfun,...};
