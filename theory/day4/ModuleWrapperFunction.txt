@@ -1,0 +1,16 @@
+MODULE WRAPPER FUNCTION
+ NodeJS does not run our code directly, it wraps the entire code inside a function before execution.
+ This function is termed as Module Wrapper Function. 
+Use of Module Wrapper Function in NodeJS:
+
+The top-level variables declared with var, const, or let are scoped to the module rather than to the global object.
+It provides some global-looking variables that are specific to the module, such as:
+The module and exports object that can be used to export values from the module.
+The variables like  __filename and __dirname, that tells us the module’s absolute filename and its directory path.
+
+//BEHIND THE SCENE
+exports,require,module,__filename, __dirname ka scope is not global hence can be used in evry nodejs file
+(function (exports, require, module, __filename, __dirname) {
+  //module code
+});
+
