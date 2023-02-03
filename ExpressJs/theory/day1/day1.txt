@@ -1,0 +1,19 @@
+WHAT IS EXPRESS JS?
+Express is a minimal and flexible Node.js web application framework .
+It provides a robust set of features for web and mobile applications.
+provide simple api to build websites,app and back ends.
+
+
+ROUTING?(applicaton client ko kya dikahyaega jb client ne us path ko likha browser me (end points))
+Routing refers to determining how an application responds to a client request to a particular endpoint,
+ which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+
+Each route can have one or more handler functions, which are executed when the route is matched.
+Route structure looks like
+app.METHOD(PATH, HANDLER)
+Where:
+
+app is an instance of express.
+METHOD is an HTTP request method, in lowercase.(get,post,put,delete)
+PATH is a path on the server.(lke '/', '/getall')
+HANDLER is the function executed when the route is matched.
