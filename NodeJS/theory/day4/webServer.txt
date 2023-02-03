@@ -1,0 +1,5 @@
+WHAT AND WHY WEB SERVER?
+handles all http request for web application
+The task of a web server is to open a file on the server and return the content to the client.
+
+serves webpage to web browser

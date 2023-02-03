@@ -1,0 +1,4 @@
+API-Application Programming Interface
+A way that allows 2 or more computer programs to communicate
+A service allowing us to request for data
+store in file .json 

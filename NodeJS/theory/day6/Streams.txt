@@ -1,0 +1,29 @@
+WHAT IS STREAMS?
+stream are object that let you read OR write data from/to destination in continuous fashion
+ex :- listening music in real time
+
+//STREAM for read
+Readable
+
+2-for write operation
+Writeable
+
+3-for both
+Duplex
+
+4-stream where o/p is computed based on I/p
+Transform(duplex stream)
+
+
+Each type of stream is an eventemmitter instance and trows evnets at differnt times
+some of them are listed below:
+
+data:event fired when data available for read
+end: event fired when no more data available for read
+error:fired when error in receiving or writing data
+finish : when all data has been flushed to underlying stream
+
+
+
+stream.pipe()
+method  used to take a readbale stream and connect it to a writeable stream
