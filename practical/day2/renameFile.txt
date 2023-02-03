@@ -1,1 +1,0 @@
-creating file with fs.writeFileSync(jaha file bnani ho uska ath and name,andar a dat
