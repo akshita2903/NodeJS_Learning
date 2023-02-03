@@ -1,4 +1,0 @@
-node js has event called 'Events'
-where you can create,listen,fir your own Events
-To include the built-in Events module use the require() method.
- In addition, all event properties and methods are an instance of an EventEmitter object.
