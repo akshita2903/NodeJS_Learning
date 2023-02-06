@@ -1,0 +1,8 @@
+what is postman ?
+an interactive tool for verifying apis.
+gogle chrome app for interacting with HTTP APIs
+
+
+REST API?
+Representational State Transfer API.
+s/w allowing 2 applications to communicate withe each other
